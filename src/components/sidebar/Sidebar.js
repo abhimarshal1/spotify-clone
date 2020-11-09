@@ -8,8 +8,8 @@ import { useDataLayerValue } from '../../contexts/DataLayer'
 
 
 const Sidebar = () => {
-    const [{ playlists }, dispatch] = useDataLayerValue();
-    console.log("playlists : ",playlists);
+    const [{ playlists }] = useDataLayerValue();
+    console.log("playlists : ", playlists);
     return (
         <div className="sidebar">
             <img

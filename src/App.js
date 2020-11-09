@@ -40,7 +40,7 @@ function App() {
         })
         .catch(error => console.log(error));
     }
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App">
