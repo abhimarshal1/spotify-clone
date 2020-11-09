@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
 
             <div className="footer__right">
-                <Grid container spacing={2}>
+                <Grid container spacing={2} className="slider__grid">
                     <Grid item>
                         <PlaylistPlayIcon />
                     </Grid>
